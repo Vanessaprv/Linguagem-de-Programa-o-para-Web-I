@@ -1,0 +1,139 @@
+# Linguagem-de-Programa-o-para-Web-I
+<!doctype html>
+
+<html>
+	<head>
+		<title>Formulário Condomínio </title>
+	<form id="form">
+	<style type="text/css">
+	#form{
+		font: 12px sans-serif;
+		border-top: 8px solid #00BFFF;
+		border-left: 8px solid #00BFFF;
+		border-right: 8px solid #00BFFF;
+		border-bottom: 8px solid#00BFFF;
+		color: #000000;
+	}
+	#form h1{
+		background: #D3D3D3;
+		padding: 3px
+		font: bold 15px sans-serif;
+		border-bottom:1px solid #00BFFF; 
+		text-align: center
+
+	}
+	#form section{
+		border-width: medium;
+   		border-style: solid;
+    		border-color:#D3D3D3;
+    		margin: auto;
+    		width: 60%;
+    	    	}
+    	#botao {
+    		
+		text-align: center;
+		border: 1px solid #eee;
+		border-radius: 6px;
+		background-color: #FCC302;
+		font-size: 18px;
+		    	}
+    	
+
+   
+	</style>
+		<meta charset="utf-8"/>
+	
+	</head>
+	<body>
+		<form action="#" method="post" name="Formulário Condomínio">
+		
+			<h1>Condomínio XYZ - Cadastro Condôminos  </h1>
+
+
+			<section id="Informações Básicas"> 
+				<br> </br>
+
+				<h2>Informações Básicas</h2>
+			<img  align="right" hspace="25px" width="250px" height="90px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTszrvAcOEd9A81CJSjVvJippmwoWshM__cN7yryLVMNa8ZIEOBg">
+
+			<b>Apartamento: </b> <input type="number" name="Apartamento"> <b>Bloco: </b><input type="text" name="Bloco">
+			<br></br>
+			 <b>Tipo de morador</b> <input type="radio" name="Tipo de morador" value="Propietário"/> Proprietário <input type="radio" name="Tipo de morador" value="Inquilino"/> Inquilino
+			 <br> </br>
+			<b>Nome:</b> <input type="text" name="Nome" size="40"> 
+			<br> </br>
+			<b>RG nº</b> <input type="number" name="RG nº"> <b>CPF nº</b> <input type="number" name="CPF nº">
+			<br> </br> 
+			<b><dt>Telefones </dt></b>
+			Residencial: <input type="number" name="Residencial">
+			Comercial: <input type="number" name="Comercial">
+			Celular: <input type="number" name="Celular">
+			<br> </br> 
+			<b>Email:</b> <input type="email" name="Email">
+			<br> </br> 
+			<dt>Em caso de emergência, indique uma pessoa com telefone para contato imediato:</dt>
+			Nome: <input type="text" name="Nome">
+			Telefone: <input type="number" name="Telefone"> <br></br>
+			</section>
+
+			<section id="Moradores da Unidade">
+				<h3>Moradores da unidade </h3>
+				<ol>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+					<li>Nome: <input type="text" name="Nome"> Parentesco: <input type="text" name="Parentesco"> Idade: <input type="number" name="Idade"></li>
+				</ol>
+				<b>Empregados:</b> 	<br> </br>
+				<ol>
+				<li> Nome: <input type="text" name="Nome">  Telefone<input type="number" name="Telefone"><br> </br></li>
+				<li> Nome: <input type="text" name="Nome">  Telefone<input type="number" name="Telefone"><br> </br></li>
+				<li>Nome: <input type="text" name="Nome">  Telefone<input type="number" name="Telefone"></li>
+				</ol>
+				<br></br>
+			</section>
+
+			<section id="Veículos da unidade">
+				<h3>Veículos da unidade </h3>
+
+				Veículo: <input type="text" name="Veículo">  Marca <input type="text" name="Marca"> Placa: <input type="text" name="Placa"> Vaga: <input type="number" name="Vaga"> <br> </br>
+				Veículo: <input type="text" name="Veículo">  Marca <input type="text" name="Marca"> Placa: <input type="text" name="Placa"> Vaga: <input type="number" name="Vaga"> <br> </br>
+				Veículo: <input type="text" name="Veículo">  Marca <input type="text" name="Marca"> Placa: <input type="text" name="Placa"> Vaga: <input type="number" name="Vaga"> 
+				<br></br>
+			</section>
+
+			<section id="Caso seja inquilino">
+				<h3>Caso seja inquilino:</h3>
+
+					<b>Nome do propietário :</b> <input type="text" name="Nome do propietário" size="40"> 
+					<br> </br>
+					<b>RG nº</b> <input type="number" name="RG nº"> <b>CPF nº</b> <input type="number" name="CPF nº">
+					<br> </br> 
+					Endereço: <input type="text" name="Endereço"> Cidade: <input type="text" name="Cidade">Estado: <input type="text" name="Estado"><b></b>	
+					<b><dt>Telefones </dt></b>
+					Residencial: <input type="number" name="Residencial">
+					Comercial: <input type="number" name="Comercial">
+					Celular: <input type="number" name="Celular">
+					<br> </br> 
+					<b>Email:</b> <input type="email" name="Email">
+					<br> </br> 
+					<b>Administrador da locação :</b> <input type="text" name="Administrador da locação"><br></br>
+					<b>Endereço:</b> <input type="text" name="Endereço"> <b> Cidade:</b> <input type="text" name="Cidade"> <b>Estado:</b> <input type="text" name="Estado"><b></b>	
+					<b><dt>Telefones </dt></b>
+					Residencial: <input type="number" name="Residencial">
+					Comercial: <input type="number" name="Comercial">
+					Celular: <input type="number" name="Celular">
+					<br> </br> 
+			</section><br></br>
+
+			 <section id= botao>
+			 	
+			 <input type="submit" name="submit" value="Enviar dados"> 
+			 </section> 
+
+		</form>
+	</body>
+
+</html>
